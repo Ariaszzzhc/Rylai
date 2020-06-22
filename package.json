@@ -1,0 +1,33 @@
+{
+  "name": "rylai",
+  "version": "0.0.1",
+  "description": "Frontend for xi-editor",
+  "main": "index.js",
+  "scripts": {
+    "start": "qode dist/index.js",
+    "build": "parcel build --target node src/index.tsx --out-dir dist",
+    "watch": "parcel watch --target node src/index.tsx --out-dir dist",
+    "dev": "qode --inspect dist/index.js"
+  },
+  "author": "Ariasszzzhc",
+  "repository": "https://github.com/Ariaszzzhc/Rylai",
+  "license": "MIT",
+  "dependencies": {
+    "@nodegui/nodegui": "^0.22.0",
+    "@nodegui/react-nodegui": "^0.8.0",
+    "react": "^16.13.1",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.38",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.3.0",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nodegui": "^1.0.3",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
+  }
+}
